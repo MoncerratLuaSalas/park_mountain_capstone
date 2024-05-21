@@ -37,7 +37,8 @@ function init() {
         detailsArea.innerHTML = `
         <strong>Name:</strong> ${selectedMountain.name}<br>
         <strong>Elevation:</strong> ${selectedMountain.elevation}<br>
-        <strong>Description:</strong> ${selectedMountain.desc}`;
+        <strong>Description:</strong> ${selectedMountain.desc}<br>
+        <img src= ${selectedMountain.img}> <br>`;
     } else {
         detailsArea.innerHTML = "No mountain selected"
     }
