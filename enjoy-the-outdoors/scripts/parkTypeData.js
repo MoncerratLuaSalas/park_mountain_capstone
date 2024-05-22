@@ -12,4 +12,4 @@ const parkTypesArray = [
     "Seashore",
     "Trail",
     "Parkway"
-]
+] 
