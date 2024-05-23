@@ -35,10 +35,14 @@ function init() {
 
     if(selectedMountain) {
         detailsArea.innerHTML = `
-        <strong>Name:</strong> ${selectedMountain.name}<br>
-        <strong>Elevation:</strong> ${selectedMountain.elevation}<br>
-        <strong>Description:</strong> ${selectedMountain.desc}<br>
-        <img src= ${selectedMountain.img}> <br>`;
+        <div class="card mtn-card">
+        <div class="card-body">
+          <h5 class="card-title">${selectedMountain.name}</h5>
+          <p class="card-text"><strong>Elevation:</strong> ${selectedMountain.elevation}</p>
+          <p class="card-text"><strong>Description:</strong> ${selectedMountain.desc}</p>
+          <img src="${selectedMountain.img}" class="card-img-top" alt="${selectedMountain.name}">
+        </div>
+      </div>`;
     } else {
         detailsArea.innerHTML = "No mountain selected"
     }

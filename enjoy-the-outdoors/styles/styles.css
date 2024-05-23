@@ -1,9 +1,9 @@
 :root {
     --c-dark: #212529;
-    --c-brand: #f27f83;
-    --c-brand-light: #fcbdbf(255, 204, 218);
+    --c-brand: #e76756;
+    --c-brand-light: #f79589(255, 204, 218);
     --c-brand-rgb: 78, 87, 212;
-    --c-body: #fae5eb;
+    --c-body: #f2d9d5;
     --font-base: "Outfit", sans-serif;
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
     --transition: all 0.5s ease;
@@ -84,3 +84,17 @@ img {
     background-size: cover;
     background-position: center;
 }
+
+/* MOUNTAINS PAGE */
+
+.mtn-card {
+    width: 300px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mtn-title {
+    text-align: center;
+    padding-top: 40px;
+}
+
