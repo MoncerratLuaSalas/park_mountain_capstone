@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('../fonts/Outfit-Variable.woff2') format('woff2'),
+       url('../fonts/Outfit-Variable.woff') format('woff'),
+       url('../fonts/Outfit-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
