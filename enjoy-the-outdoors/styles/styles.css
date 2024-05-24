@@ -96,8 +96,17 @@ img {
 .mtn-title {
     text-align: center;
     padding-top: 40px;
+    color: #ffffff;
 }
 
-.dropdown {
-    margin-bottom: 10%;
+#mountainDetails {
+    margin-top: 20px; 
+}
+
+/* PARKS PAGE */
+
+.prkTitle {
+    text-align: center;
+    padding-top: 40px;
+    color: #ffffff;
 }
